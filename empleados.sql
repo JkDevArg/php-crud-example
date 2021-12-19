@@ -39,7 +39,7 @@ CREATE TABLE `empleados` (
 --
 
 INSERT INTO `empleados` (`id_empleado`, `nombre_empleado`, `correo_empleado`, `estado_empleado`) VALUES
-(1, ' Boca', 'asdasd@gmail.com', 1),
+(1, 'Boca', 'asdasd@gmail.com', 1),
 (2, 'Hola', 'hola@gmail.com', 1);
 
 --

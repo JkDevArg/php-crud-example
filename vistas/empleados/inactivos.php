@@ -1,5 +1,3 @@
-<a name="aggEmpleado" class="btn btn-primary" href="?controlador=empleados&accion=crear" role="button">Agregar Empleado</a>
-
 <div class="card">
     <div class="card-header">
         Empleados Inactivos
@@ -32,5 +30,8 @@
             <?php } ?>
             </tbody>
         </table>
+    </div>
+    <div class="card-footer">
+        <a name="aggEmpleado" class="btn btn-primary" href="?controlador=empleados&accion=crear" role="button">Agregar Empleado</a>
     </div>
 </div>

@@ -1,11 +1,10 @@
 <div class="p-5 bg-light">
-    <div class="container">
-        <h1 class="display-3">Jumbo heading</h1>
-        <p class="lead">Jumbo helper text</p>
+    <div class="container">Sistema de prueba Empleados</h1>
+        <p class="lead">Obtener codigo en mi <a href="https://github.com/JkDevArg/php-crud-example" class="link-danger fw-bold" style="text-decoration: none;">Github</a></p>
         <hr class="my-2">
-        <p>More info</p>
+        <p>Ve a mi repo y dale un rico <span style="color: yellow;" class="fw-bold">Star</p>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+            <a class="btn btn-primary btn-lg" href="?controlador=empleados&accion=inicio" role="button">Empleados</a>
         </p>
     </div>
 </div>

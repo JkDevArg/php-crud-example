@@ -11,14 +11,15 @@
 
   </head>
   <body>
-  <nav class="navbar navbar-expand navbar-light bg-light">
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
       <div class="nav navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="visually-hidden">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Home</a>
-          <a class="nav-item nav-link" href="#">Empleados</a>
+          <a class="nav-item nav-link active text-uppercase fw-bold" href="https://github.com/JkDevArg/php-crud-example">Empleados Sys <span class="visually-hidden">(current)</span></a>
+          <a class="nav-item nav-link" href="./">Home</a>
+          <a class="nav-item nav-link" href="?controlador=empleados&accion=inicio">Empleados</a>
+          <a class="nav-item nav-link" href="?controlador=empleados&accion=inactivos">Inactivos</a>
       </div>
   </nav>
-  <div class="container">
+  <div class="container mt-3">
 	  <div class="row">
 		  <div class="col-12">
 			  <?php include_once("router.php"); ?>
